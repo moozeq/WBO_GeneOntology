@@ -1,0 +1,4 @@
+goatools
+biopython
+requests
+pronto
