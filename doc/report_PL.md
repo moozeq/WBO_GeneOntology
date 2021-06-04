@@ -1,5 +1,7 @@
 # Raport
 
+Repozytorium wraz z poniższym raportem dostępne jest również pod [tym linkiem](https://github.com/moozeq/WBO_GeneOntology).
+
 ## Część A
 
 ### 1
@@ -68,7 +70,7 @@ z ich sekwencjami do pliku `results/blasted.fasta`, który zawierał równo `100
 
 Przy przeszukiwaniu `100` sekwencji genów pod kątem zawierania prawdopodobnych domen PFAM z `e-value`
 określonym na `1e-20` znaleziono `132` domeny PFAM w `90` z nich, wyniki wraz z adnotacjami zostały zapisane do
-pliku `results/study_annotated.json`.
+pliku `results/FINAL_STUDY_ANNOTATED.json`.
 
 ### 3
 

@@ -111,7 +111,7 @@ if __name__ == '__main__':
         go = GO.go_db_from_url()
     elif args.mode == 'annotate':
         go = GO.go_db_from_url()
-        go.annotate('results/study_annotated.json', 'results/ecoli.assocs', 'results/study_annotated.json')
+        go.annotate('results/study_annotated.json', 'results/ecoli.assocs', 'results/FINAL_STUDY_ANNOTATED.json')
     elif args.mode == 'analyze':
         a = GO.analyze_enrichment('results/enrichmentA.tsv')
         b = GO.analyze_enrichment('results/enrichmentB.tsv')
