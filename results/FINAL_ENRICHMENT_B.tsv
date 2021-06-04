@@ -1,0 +1,14 @@
+GO:2000113	BP	negative regulation of cellular macromolecule biosynthetic process	3/336	107/2550	0.00035504187807809337	1.0
+GO:0051171	BP	regulation of nitrogen compound metabolic process	20/336	288/2550	0.0005730487078432635	1.0
+GO:0010558	BP	negative regulation of macromolecule biosynthetic process	4/336	114/2550	0.0005938337036435375	1.0
+GO:0009890	BP	negative regulation of biosynthetic process	4/336	115/2550	0.0005940861422437907	1.0
+GO:0031327	BP	negative regulation of cellular biosynthetic process	4/336	115/2550	0.0005940861422437907	1.0
+GO:0140110	MF	transcription regulator activity	7/336	165/2550	0.00012080546433101622	0.26589282699256667
+GO:0003700	MF	DNA-binding transcription factor activity	7/336	147/2550	0.0009562953601487175	1.0
+GO:0003824	MF	catalytic activity	209/336	1378/2550	0.0014857153789797491	1.0
+GO:0005353	MF	fructose transmembrane transporter activity	4/336	7/2550	0.007475779631354398	1.0
+GO:0022877	MF	protein-N(PI)-phosphohistidine-fructose phosphotransferase system transporter activity	4/336	7/2550	0.007475779631354398	1.0
+GO:0005575	CC	cellular_component	284/336	1948/2550	0.00010845204565379978	0.027546819596065142
+GO:0110165	CC	cellular anatomical entity	276/336	1887/2550	0.0002300552060598511	0.05843402233920218
+GO:0005829	CC	cytosol	122/336	770/2550	0.010656334636478446	1.0
+GO:0031225	CC	anchored component of membrane	4/336	10/2550	0.032444079876899554	1.0

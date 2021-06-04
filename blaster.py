@@ -91,6 +91,8 @@ class Blaster:
     @classmethod
     def blastdb_from_file(cls, input_file: str, dbtype: str = 'nucl', gencode: int = 1):
         """
+        Build database from file.
+
         Pick right gencode:
             - 1:    standard
             - 11:   bacterial
@@ -133,5 +135,5 @@ class Blaster:
 
 if __name__ == '__main__':
     db = Blaster.blastdb_from_file('data/genes_e_coli.fasta', gencode=11)
-    db.search_tblastn('data/protein_fragments.fasta', 'data/blasted.tsv')
-    db.gather_hits_seqs('data/blasted.tsv', 'data/blasted.fasta', aa=True)
+    db.search_tblastn('data/protein_fragments.fasta', 'results/blasted.tsv')
+    db.gather_hits_seqs('results/blasted.tsv', 'results/blasted.fasta', aa=True)

@@ -65,10 +65,10 @@ class Hammer:
 
 if __name__ == '__main__':
     hmmer = Hammer.hmmer_db_from_url()
-    hmmer.hmmscann('data/blasted.fasta', 'data/hmmscanned.txt')
-    entries = Hammer.parse_text('data/hmmscanned.txt')
-    with open('data/study_annotated.json', 'w') as f:
+    hmmer.hmmscann('results/blasted.fasta', 'results/hmmscanned.txt')
+    entries = Hammer.parse_text('results/hmmscanned.txt')
+    with open('results/study_annotated.json', 'w') as f:
         json.dump(entries, f, indent=4)
-    with open('data/studyPfam.txt', 'w') as f:
+    with open('results/studyPfam.txt', 'w') as f:
         f.write('\n'.join(entries.keys()))
     Term.info(f'Got {len(entries)} genes for study')

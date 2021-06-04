@@ -1,0 +1,6 @@
+GO:0006979	BP	response to oxidative stress	15/466	17/802	0.011499487157127465	1.0
+GO:0010556	BP	regulation of macromolecule biosynthetic process	47/466	65/802	0.017826485389559502	1.0
+GO:2000113	BP	negative regulation of cellular macromolecule biosynthetic process	16/466	19/802	0.019187132645730666	1.0
+GO:2000112	BP	regulation of cellular macromolecule biosynthetic process	44/466	61/802	0.021787216273690478	1.0
+GO:0051171	BP	regulation of nitrogen compound metabolic process	50/466	70/802	0.021948726462711978	1.0
+GO:0000287	MF	magnesium ion binding	19/466	44/802	0.042052687751242934	1.0
